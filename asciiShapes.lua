@@ -7,7 +7,7 @@ function Vector:new(xV,yV,zV)
 end
 
 function Vector:rotate(xR,yR,zR)
-	--degrees to radians, because fuck working with radians
+	--degrees to radians
 	xR = math.rad(xR)
 	yR = math.rad(yR)
 	zR = math.rad(zR)
